@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+    grid-gap: 5px;
+}
+
+header {
+    color: white;
+    background: dodgerblue;
+    grid-column: 1/6;
+    grid-row: 1;
+}
+
+content {
+    color: white;
+    text-align: center;
+    background: lawngreen;
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+sidebar {
+    color: white;
+    text-align: center;
+    background: mediumpurple;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+twin1 {
+    color: white;
+    margin-right: 15%;
+    text-align: center;
+    background: orange;
+    grid-column: 2/4;
+    grid-row: 3;
+}
+twin2{
+    color: white;
+    margin-left: -23%;
+    text-align: center;
+    background: orange;
+    grid-column: 4;
+    grid-row: 3;
+}
+footer{
+    color: white;
+    background: blue;
+    grid-column: 1/6;
+    grid-row: 4;
+}
